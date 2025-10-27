@@ -1,5 +1,5 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
         body {
             font-family: "Roboto", sans-serif;
@@ -226,6 +226,7 @@
         @media (min-width: 601px) and (max-width: 1024px) {
             .all1 {
                 margin-left: 70px;
+                margin-right: 70px;
             }
 
             .logo1 {
@@ -295,6 +296,15 @@
                 font-weight: 700;
                 margin-top: 29px;
                 line-height: 1;
+                width: 100%;
+                max-width: 628px;
+            }
+
+            .configure1{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 20px;
             }
 
             .man11 {
@@ -302,26 +312,42 @@
             }
 
             .man1 {
-                margin-left: 140px;
-                margin-right: 246px;
-                width: 40vw;
+                margin-left: 0;
+                margin-right: 0;
+                width: 25vw;
+                max-width: 300px;
+                height: auto;
+                flex-shrink: 0;
             }
 
             .write1 {
                 font-size: 20px;
                 font-weight: 400;
-                width: 414px;
-                height: 62px;
+                width: 100%;
+                max-width: 414px;
+                height: auto;
                 margin-top: 25px;
                 line-height: 1.4;
             }
 
-         
+            .blue1 {
+                background-color: #1E4681;
+                padding: 10px;
+                width: 100%;
+                max-width: 509.15px;
+                height: auto;
+                min-height: 202.23px;
+                color: white;
+                border-radius: 10px;
+                margin-left: 0;
+                margin-top: 8.06vh;
+            }
 
             .blue12 {
                 font-family: "Roboto Slab", serif;
                 font-size: 25px;
-                height: 113px;
+                height: auto;
+                min-height: 113px;
             }
 
             .blue11 {
@@ -332,7 +358,366 @@
             }
         }
 
-   /* Natiq*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+        body {
+            font-family: "Roboto", sans-serif;
+            
+        }
+
+        .all1 {
+            margin:0 7%;
+            margin-bottom: 50px;
+        }
+
+        .logo1 {
+            height: 66px;
+            width: 112px;
+            margin-top: 21px;
+        }
+
+        .list1 {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .globe1 {
+            width: 22px;
+            height: 21px;
+            margin-top: 97px;
+        }
+
+        .text1 {
+            width: 130px;
+            height: 32px;
+            margin-top: 100px;
+            gap: 8px;
+        }
+
+        .clock1 {
+            width: 22px;
+            height: 22px;
+            margin-top: 97px;
+        }
+
+        .text11 {
+            width: 130px;
+            height: 32px;
+            margin-top: 100px;
+            gap: 14px;
+        }
+
+        .li11 {
+            margin-left: 25px;
+        }
+
+        .calender1 {
+            width: 20px;
+            height: 22px;
+            margin-top: 97px;
+        }
+
+        .text111 {
+            width: 130px;
+            height: 32px;
+            margin-top: 100px;
+            gap: 13px;
+        }
+
+        .li111 {
+            margin-left: 32px;
+        }
+
+        .first {
+            font-family: "Roboto Slab", serif;
+            font-size: 80px;
+            font-weight: 700;
+            margin-top: 29px;
+            line-height: 101%;
+            width: 628px;
+            height: 190px;
+        }
+        .configure1{
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .man1 {
+            margin-left: 140px;
+            margin-right: 246px;
+            width: 20vw;
+        }
+
+        .write1 {
+            font-size: 20px;
+            font-weight: 400;
+            width: 414px;
+            height: 62px;
+            margin-top: 20px;
+            line-height: 1.4;
+        }
+
+        .blue1 {
+          background-color: #1E4681;
+           padding: 10px;
+           width: 509.15px;
+           height: 202.23px;
+           color: white;
+           border-radius: 10px;
+           margin-left: 18.23vw;
+           margin-top: 8.06vh;
+
+        }
+
+        .blue12 {
+            font-family: "Roboto Slab", serif;
+            font-size: 25px;
+            height: 113px;
+        }
+
+        .blue11 {
+            font-size: 20px;
+            display: flex;
+            justify-self: flex-end;
+            margin-top: 70px;
+        }
+
+        /* Mobile: 300px - 600px */
+        @media (min-width: 300px) and (max-width: 600px) {
+            .all1 {
+                margin-left: 35px;
+            }
+
+            .logo1 {
+                width: 53px;
+                height: 31px;
+                margin-top: 36px;
+            }
+
+            .list1 {
+                display: flex;
+                font-size: 16px;
+                margin-top: 45px;
+                font-weight: 400;
+            }
+
+            .list1 li {
+                margin-bottom: 8px;
+            }
+
+            .globe1,
+            .clock1,
+            .calender1 {
+                width: 18px;
+                height: 18px;
+                margin-top: 0;
+                margin-right: 0.6px;
+            }
+
+            .text1,
+            .text11,
+            .text111 {
+                margin-top: 0;
+                font-size: 16px;
+                line-height: 1.2;
+            }
+
+            .first {
+                font-size: 40px;
+                line-height: 101%;
+                font-weight: 700;
+                width: 292px;
+                height: 80px;
+                margin-top: 0px;
+            }
+
+            .man11 {
+                margin-top: 20px;
+            }
+
+            .write1 {
+                font-size: 10px;
+                width: 212px;
+                margin-top: 15px;
+                line-height: 150%;
+            }
+
+            .man1 {
+                width: 160px;
+                height: auto;
+                margin-left: 50vw;
+                margin-right: 40px;
+            }
+            .configure1{
+                display: block;
+            }
+
+            .blue1 {
+                background-color: #1E4681;
+                padding: 20px;
+                width: 225px;
+                height: 93px;
+                color: white;
+                border-radius: 10px;
+                margin-left: 0px;
+                margin-top: 38px;
+            }
+
+            .blue12 {
+                font-family: "Roboto Slab", serif;
+                font-size: 11px;
+                height: 52px;
+            }
+
+            .blue11 {
+                font-size: 10px;
+                display: flex;
+                justify-self: flex-end;
+                margin-top: 10px;
+            }
+        }
+
+        /* Tablet: 601px - 1024px */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            .all1 {
+                margin-left: 70px;
+                margin-right: 70px;
+            }
+
+            .logo1 {
+                height: 38px;
+                width: 64px;
+                margin-top: 22px;
+            }
+
+            .list1 {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            .globe1 {
+                width: 22px;
+                height: 21px;
+                margin-top: 97px;
+            }
+
+            .text1 {
+                width: 130px;
+                height: 32px;
+                margin-top: 100px;
+                gap: 8px;
+            }
+
+            .clock1 {
+                width: 22px;
+                height: 22px;
+                margin-top: 97px;
+            }
+
+            .text11 {
+                width: 130px;
+                height: 32px;
+                margin-top: 100px;
+                gap: 14px;
+            }
+
+            .li11 {
+                margin-left: 25px;
+            }
+
+            .calender1 {
+                width: 20px;
+                height: 22px;
+                margin-top: 97px;
+            }
+
+            .text111 {
+                width: 130px;
+                height: 32px;
+                margin-top: 100px;
+                gap: 13px;
+            }
+
+            .li111 {
+                margin-left: 32px;
+            }
+
+            .first {
+                font-family: "Roboto Slab", serif;
+                font-size: 80px;
+                font-weight: 700;
+                margin-top: 29px;
+                line-height: 1;
+                width: 100%;
+                max-width: 628px;
+            }
+
+            .configure1{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 20px;
+            }
+
+            .man11 {
+                display: flex;
+            }
+
+            .man1 {
+                margin-left: 0;
+                margin-right: 0;
+                width: 25vw;
+                max-width: 300px;
+                height: auto;
+                flex-shrink: 0;
+            }
+
+            .write1 {
+                font-size: 20px;
+                font-weight: 400;
+                width: 100%;
+                max-width: 414px;
+                height: auto;
+                margin-top: 25px;
+                line-height: 1.4;
+            }
+
+            .blue1 {
+                background-color: #1E4681;
+                padding: 10px;
+                width: 100%;
+                max-width: 509.15px;
+                height: auto;
+                min-height: 202.23px;
+                color: white;
+                border-radius: 10px;
+                margin-left: 0;
+                margin-top: 8.06vh;
+            }
+
+            .blue12 {
+                font-family: "Roboto Slab", serif;
+                font-size: 25px;
+                height: auto;
+                min-height: 113px;
+            }
+
+            .blue11 {
+                font-size: 20px;
+                display: flex;
+                justify-self: flex-end;
+                margin-top: 60px;
+            }
+        }
+
+   /* Natiq - Desktop */
    .Main2 {
   max-width: 1650px;
   margin: 0 auto;
@@ -382,17 +767,19 @@
 .m2-main {
   display: flex;
   align-items: flex-start;
-  gap: 120px;
+  gap: 60px;
+  flex-wrap: wrap;
 }
 
 .m2-foto2 {
-  width: 18vw;
-  height: 23vh;
+  width: 280px;
+  height: auto;
   flex-shrink: 0;
 }
 
 .m2-main1 {
   flex: 1;
+  min-width: 200px;
 }
 
 .m2-mh {
@@ -411,89 +798,15 @@
   font-family: 'Roboto Slab', serif;
 }
 
-
-@media (min-width: 1280px) {
+/* Natiq - Tablet: 601px - 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
   .Main2 {
-    padding: 90px 150px;
-  }
-  
-  .m2-h1 {
-    font-size: 75px;
-  }
-  
-  .text p {
-    font-size: 24px;
-  }
-  
-  .m2-foto1 {
-    width: 480px;
-  }
-  
-  .m2-foto2 {
-    width: 18vw;
-  }
-  
-  .m2-mh {
-    font-size: 36px;
-  }
-  
-  .m2-mc {
-    font-size: 20px;
-  }
-}
-
-
-@media (max-width: 1279px) {
-  .Main2 {
-    padding: 70px 100px;
+    padding: 60px 70px;
   }
   
   .m2-top {
-    gap: 80px;
-    margin-bottom: 100px;
-  }
-  
-  .m2-h1 {
-    font-size: 60px;
-  }
-  
-  .text p {
-    font-size: 20px;
-  }
-  
-  .m2-foto1 {
-    width: 380px;
-  }
-  
-  .m2-main {
-    gap: 80px;
-  }
-  
-  .m2-foto2 {
-    width: 300px;
-  }
-  
-  .m2-mh {
-    font-size: 30px;
-  }
-  
-  .m2-mc {
-    font-size: 17px;
-  }
-}
-
-
-
-@media (max-width: 600px) {
-  .Main2 {
-    padding: 50px 40px;
-  }
-  
-  .m2-top {
-    flex-direction: column;
-    gap: 40px;
-    margin-bottom: 60px;
-    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 80px;
   }
   
   .m2-left {
@@ -501,35 +814,34 @@
   }
   
   .m2-h1 {
-    font-size: 20px;
-    margin-bottom: 30px;
+    font-size: 70px;
   }
   
   .text p {
-    font-size: 17px;
-    margin-bottom: 25px;
+    font-size: 22px;
   }
   
   .m2-right {
-    align-self: center;
+    flex-shrink: 0;
   }
   
   .m2-foto1 {
-    width: 280px;
+    width: 300px;
   }
   
   .m2-main {
-    flex-direction: column;
-    gap: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
   }
   
   .m2-foto2 {
-    display: none;
-    width: 220px;
+    width: 100%;
+    max-width: 250px;
   }
   
   .m2-main1 {
-    width: 100%;
+    flex: 1 1 calc(33.333% - 30px);
+    min-width: 150px;
   }
   
   .m2-mh {
@@ -540,7 +852,69 @@
     font-size: 18px;
   }
 }
-        
+
+/* Natiq - Mobile: 300px - 600px */
+@media (min-width: 300px) and (max-width: 600px) {
+  .Main2 {
+    padding: 40px 35px;
+  }
+  
+  .m2-top {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+    align-items: flex-start;
+  }
+  
+  .m2-left {
+    max-width: 100%;
+  }
+  
+  .m2-h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .m2-right {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .m2-foto1 {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .m2-main {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .m2-foto2 {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .m2-main1 {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .m2-mh {
+    font-size: 32px;
+  }
+  
+  .m2-mc {
+    font-size: 18px;
+  }
+}  
 /*Mahammad CSS */
 .h1-m3{
     font-family: "Roboto Slab", serif;
@@ -1354,3 +1728,4 @@ h3{
 
 
     }
+
