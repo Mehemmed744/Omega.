@@ -900,6 +900,7 @@
   .m2-foto2 {
     width: 100%;
     max-width: 200px;
+    display: none;
   }
   
   .m2-main1 {
@@ -1728,5 +1729,6 @@ h3{
 
 
     }
+
 
 
